@@ -1,0 +1,9 @@
+Right now there is a problem where in the human predictions based on mouse models guesses the most common of the mouse dendrites to get the highest result.  Obviously this is not a useful model.  
+
+The rest of the models seem to do similar things, choosing one or more of the most common types and predicting that.
+
+A potential fix to this problem would be to try a different model type other than Logistical Regression, or trying different penalty types (is l1 currently).
+
+Note that these same problems occur when predicting mouse types.
+
+-Noah Jacobs (noah.jacobs@queensu.ca)
